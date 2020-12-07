@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my restraunt</title>
+        <style type="text/css">
+            .header{
+                position: fixed; 
+                width:100%;
+                top: 0px;
+                right: 0px;
+                background-color: sienna;
+                text-align: center;
+                height:30px;
+                padding: 0px;
+                font-size: 25px;
+            }
+            a{
+                background-color: mediumaquamarine;
+                color:midnightblue;
+                border-radius: 5px;
+            }
+            a:hover{
+                color: cornsilk;
+                background-color: darkgoldenrod;
+            }
+            a:active{
+                color: cornsilk;
+                background-color: darkgoldenrod;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="" width="100%" height="700px";">
+        <div class=header>
+            <div style="display: inline;margin-left:125px;margin-right: 125px;" ><a href=#menu>MENU</a></div>
+            <div style="display: inline;margin-left:125px;margin-right: 125px;"><a href="">HOME</a></div>
+            <div style="display: inline;margin-left:125px;margin-right: 125px;"><a href="">ABOUT</a></div>
+            <div style="display: inline;margin-left:125px;margin-right: 125px;"><a href="s">SOCIAL</a></div>
+        </div>
+        <hr>
+        <dl id=menu style="color: tan;background-color: tomato;text-decoration: underline;text-align: left;font-size:x-large;">
+            <dt>
+                palak panneer
+            </dt>
+            <dd>
+                <img src="" width="200px" height="200px" style="display: block;">
+                try our tastiest mouth watering palak panneer<div style="display: inline;position: relative; text-align: right;right:-920px;font-family: sans-serif;background-color:blueviolet;">Rs.150</div>
+            </dd>
+            <br>
+            <dt>panneer roll</dt>
+            <dd>
+                <img src=""width="200px" height="200px" style="display: block;">
+                roll yourself with out famous panneer roll<div style="display: inline;position: relative; text-align: right;right:-955px;font-family: sans-serif;background-color:blueviolet;">Rs.150</div>
+            </dd>
+            <br>
+            <dt>
+                panneer parota
+            </dt>
+            <dd>
+                <img src="" width="200px" height="200px" style="display: block;">
+                try a must try panneer parota<div style="display: inline;position: relative; text-align: right;right:-1080px;font-family: sans-serif;background-color:blueviolet;">Rs.50</div>
+            </dd>
+            <br>
+            <dt>panneer dosa</dt>
+            <dd>
+                <img src="" width="200px" height="200px" style="display: block;">
+                south indian dosa with the flavour of panneer<div style="display: inline;position: relative; text-align: right;right:-920px;font-family: sans-serif;background-color:blueviolet;">Rs.100</div>
+            </dd>
+            <br>
+            <dt>
+                kadai panneer gravy
+            </dt>
+            <dd>
+                <img src="" width="200px" height="200px" style="display: block;">
+                simple yet very flavourful ground species known as kadai masala<div style="display: inline;position: relative; text-align: right;right:-730px;font-family: sans-serif; background-color:blueviolet;">Rs.150</div>
+            </dd>
+            <br>
+            <dt>
+                mughal shahi panneer
+            </dt>
+            <dd>
+                <img src="" width="200px" height="200px" style="display: block;">
+                royal dish sdapted from mughal cuisine<div style="display: inline;position: relative; text-align: right;right:-980px;font-family: sans-serif; background-color:blueviolet;">Rs.200</div>
+            </dd>
+            <br>
+            <dt>
+                chilli panneer
+            </dt>
+            <dd>
+                <img src="" width="200px" height="200px" style="display: block;">
+                special panneer snack<div style="display: inline;position: relative; text-align: right;right:-1150px;font-family: sans-serif; background-color:blueviolet;">Rs.150</div>
+            </dd>
+            <br>
+            <dt>
+                panneer tikka masala
+            </dt>
+            <dd>
+                <img src="" width="200px" height="200px" style="display: block;">
+                special and popular punjabi dish<div style="display: inline;position: relative; text-align: right;right:-1050px;font-family: sans-serif; background-color:blueviolet;">Rs.200</div>
+            </dd>
+            <br>
+        </dl>
+        <div style="width: 100%; height: 300px;">
+
+        </div>
+
+    </body>
+</html>
+<!--HOME, MENU, ABOUT, SOCIAL in the top one beside the other
+then add the background image  and then give some space and then add the menu
+give the title as menu 
+in the next line add some items and add the discription and add the price in the interactive way
+use href=#something in "a" tag and use id=something in the tag that i want to reffer to when i click on that "a" tag-->
