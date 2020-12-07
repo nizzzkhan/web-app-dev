@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my restraunt</title>
+        <style type="text/css">
+            .header{
+                position: fixed; 
+                width:100%;
+                top: 0px;
+                right: 0px;
+                background-color: sienna;
+                text-align: center;
+                height:30px;
+                padding: 0px;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="438099.jpg" width="100%" height="700px";">
+        <div class=header>
+            <div style="display: inline;margin-left:125px;margin-right: 125px;">menu</div>
+            <div style="display: inline;margin-left:125px;margin-right: 125px;">home</div>
+            <div style="display: inline;margin-left:125px;margin-right: 125px;">about</div>
+            <div style="display: inline;margin-left:125px;margin-right: 125px;">social</div>
+        </div>
+        <dl style="color: tan;background-color: tomato;text-decoration: underline;text-align: left;font-size:x-large;">
+            <dt>
+                palak panneer
+            </dt>
+            <dd>
+                try our tastiest mouth watering palak panneer<div style="display: inline;position: relative; text-align: right;right:-920px;background-color:blueviolet;">200</div>
+            </dd>
+            <dt>panneer rool</dt>
+            <dd>
+                roll yourself with out famous panneer roll<div style="display: inline;position: relative; text-align: right;right:-955px;background-color:blueviolet;">250</div>
+            </dd>
+        </dl>
+    </body>
+</html>
+<!--HOME, MENU, ABOUT, SOCIAL in the top one beside the other
+then add the background image  and then give some space and then add the menu
+give the title as menu 
+in the next line add some items and add the discription and add the price in the interactive way-->
